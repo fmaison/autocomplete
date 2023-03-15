@@ -1,0 +1,267 @@
+
+const dataFromMockeroo =[{
+    "id": 1,
+    "first_name": "Erasmus",
+    "last_name": "Wintle",
+    "email": "ewintle0@prnewswire.com"
+}, {
+    "id": 2,
+    "first_name": "Arlana",
+    "last_name": "Hallgarth",
+    "email": "ahallgarth1@photobucket.com"
+}, {
+    "id": 3,
+    "first_name": "Noel",
+    "last_name": "Fitchen",
+    "email": "nfitchen2@cdc.gov"
+}, {
+    "id": 4,
+    "first_name": "Nora",
+    "last_name": "Durtnel",
+    "email": "ndurtnel3@weibo.com"
+}, {
+    "id": 5,
+    "first_name": "Vivie",
+    "last_name": "Derl",
+    "email": "vderl4@sbwire.com"
+}, {
+    "id": 6,
+    "first_name": "Fifi",
+    "last_name": "Keggin",
+    "email": "fkeggin5@cdbaby.com"
+}, {
+    "id": 7,
+    "first_name": "Ethelbert",
+    "last_name": "Martinec",
+    "email": "emartinec6@mozilla.org"
+}, {
+    "id": 8,
+    "first_name": "Tabb",
+    "last_name": "Middell",
+    "email": "tmiddell7@constantcontact.com"
+}, {
+    "id": 9,
+    "first_name": "Cyndie",
+    "last_name": "Capelin",
+    "email": "ccapelin8@xinhuanet.com"
+}, {
+    "id": 10,
+    "first_name": "Merrill",
+    "last_name": "Amy",
+    "email": "mamy9@who.int"
+}, {
+    "id": 11,
+    "first_name": "Loren",
+    "last_name": "Refford",
+    "email": "lrefforda@dot.gov"
+}, {
+    "id": 12,
+    "first_name": "Aleksandr",
+    "last_name": "Tripe",
+    "email": "atripeb@yolasite.com"
+}, {
+    "id": 13,
+    "first_name": "Gabriella",
+    "last_name": "Sisnett",
+    "email": "gsisnettc@apple.com"
+}, {
+    "id": 14,
+    "first_name": "Gillian",
+    "last_name": "Corthes",
+    "email": "gcorthesd@independent.co.uk"
+}, {
+    "id": 15,
+    "first_name": "Cassandre",
+    "last_name": "Berling",
+    "email": "cberlinge@mtv.com"
+}, {
+    "id": 16,
+    "first_name": "Bertina",
+    "last_name": "Prout",
+    "email": "bproutf@vistaprint.com"
+}, {
+    "id": 17,
+    "first_name": "Theresita",
+    "last_name": "Bapty",
+    "email": "tbaptyg@hatena.ne.jp"
+}, {
+    "id": 18,
+    "first_name": "Boniface",
+    "last_name": "Bickardike",
+    "email": "bbickardikeh@msu.edu"
+}, {
+    "id": 19,
+    "first_name": "Arel",
+    "last_name": "Necrews",
+    "email": "anecrewsi@theglobeandmail.com"
+}, {
+    "id": 20,
+    "first_name": "Melba",
+    "last_name": "Lemerie",
+    "email": "mlemeriej@prnewswire.com"
+}, {
+    "id": 21,
+    "first_name": "Leone",
+    "last_name": "Laffling",
+    "email": "llafflingk@histats.com"
+}, {
+    "id": 22,
+    "first_name": "Mathilde",
+    "last_name": "Ralls",
+    "email": "mrallsl@tumblr.com"
+}, {
+    "id": 23,
+    "first_name": "Kort",
+    "last_name": "Kinton",
+    "email": "kkintonm@meetup.com"
+}, {
+    "id": 24,
+    "first_name": "Alva",
+    "last_name": "Monelli",
+    "email": "amonellin@huffingtonpost.com"
+}, {
+    "id": 25,
+    "first_name": "Glen",
+    "last_name": "Esel",
+    "email": "geselo@forbes.com"
+}, {
+    "id": 26,
+    "first_name": "Rice",
+    "last_name": "Eayrs",
+    "email": "reayrsp@moonfruit.com"
+}, {
+    "id": 27,
+    "first_name": "Kora",
+    "last_name": "Mitchelson",
+    "email": "kmitchelsonq@weibo.com"
+}, {
+    "id": 28,
+    "first_name": "Candace",
+    "last_name": "Foxton",
+    "email": "cfoxtonr@biblegateway.com"
+}, {
+    "id": 29,
+    "first_name": "Edita",
+    "last_name": "d'Escoffier",
+    "email": "edescoffiers@google.ru"
+}, {
+    "id": 30,
+    "first_name": "Cristie",
+    "last_name": "Nolin",
+    "email": "cnolint@state.tx.us"
+}, {
+    "id": 31,
+    "first_name": "Ximenez",
+    "last_name": "Slocombe",
+    "email": "xslocombeu@xinhuanet.com"
+}, {
+    "id": 32,
+    "first_name": "Mei",
+    "last_name": "Jumonet",
+    "email": "mjumonetv@reverbnation.com"
+}, {
+    "id": 33,
+    "first_name": "Francoise",
+    "last_name": "Keary",
+    "email": "fkearyw@imdb.com"
+}, {
+    "id": 34,
+    "first_name": "Jayme",
+    "last_name": "Klossek",
+    "email": "jklossekx@biglobe.ne.jp"
+}, {
+    "id": 35,
+    "first_name": "Raine",
+    "last_name": "Ainsbury",
+    "email": "rainsburyy@cnbc.com"
+}, {
+    "id": 36,
+    "first_name": "Dex",
+    "last_name": "Muffen",
+    "email": "dmuffenz@rakuten.co.jp"
+}, {
+    "id": 37,
+    "first_name": "Derry",
+    "last_name": "Phare",
+    "email": "dphare10@newyorker.com"
+}, {
+    "id": 38,
+    "first_name": "Clyve",
+    "last_name": "Seager",
+    "email": "cseager11@weather.com"
+}, {
+    "id": 39,
+    "first_name": "Derrick",
+    "last_name": "Goreisr",
+    "email": "dgoreisr12@japanpost.jp"
+}, {
+    "id": 40,
+    "first_name": "Elizabeth",
+    "last_name": "Yitzhakof",
+    "email": "eyitzhakof13@house.gov"
+}, {
+    "id": 41,
+    "first_name": "Hernando",
+    "last_name": "Nyles",
+    "email": "hnyles14@oracle.com"
+}, {
+    "id": 42,
+    "first_name": "Skippie",
+    "last_name": "Hoyer",
+    "email": "shoyer15@biglobe.ne.jp"
+}, {
+    "id": 43,
+    "first_name": "Lynnette",
+    "last_name": "Hassent",
+    "email": "lhassent16@wsj.com"
+}, {
+    "id": 44,
+    "first_name": "Had",
+    "last_name": "Dunnett",
+    "email": "hdunnett17@uiuc.edu"
+}, {
+    "id": 45,
+    "first_name": "Yetty",
+    "last_name": "Maciaszczyk",
+    "email": "ymaciaszczyk18@blogtalkradio.com"
+}, {
+    "id": 46,
+    "first_name": "Lucina",
+    "last_name": "Burkill",
+    "email": "lburkill19@weather.com"
+}, {
+    "id": 47,
+    "first_name": "Dannie",
+    "last_name": "Hatwell",
+    "email": "dhatwell1a@walmart.com"
+}, {
+    "id": 48,
+    "first_name": "Johnna",
+    "last_name": "Nozzolii",
+    "email": "jnozzolii1b@behance.net"
+}, {
+    "id": 49,
+    "first_name": "Jessica",
+    "last_name": "Ahrenius",
+    "email": "jahrenius1c@slate.com"
+}, {
+    "id": 50,
+    "first_name": "Dahlia",
+    "last_name": "Tabord",
+    "email": "dtabord1d@tuttocitta.it"
+}]
+export const dataService = {
+    find(value: string): Array<any> {
+        if (!value) return dataFromMockeroo
+
+        value = value.toLowerCase()
+        return dataFromMockeroo.filter(record =>
+            record.email.toLowerCase().includes(value)
+         || record.first_name.toLowerCase().includes(value)
+         || record.last_name.toLowerCase().includes(value)
+        )
+    },
+    retrieve() {
+        return dataFromMockeroo
+    }
+}
